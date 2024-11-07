@@ -17,5 +17,18 @@ int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distan
         d[v][u] = w;
     }
 
-    return z;
+    //Floyd-Warshall 
+    for (int k = 0; k < n; k++) {
+        for (int i = 0; i < n; i++) {
+            if (d[i][k] < INF) {
+                for (int j = 0; j < n; j++) {
+                    if (d[i][j] > d[i][k] + d[k][j]) {
+                        d[i][j] = d[i][k] + d[k][j];
+                    }
+                }
+            }
+        }
+    }
+
+    
 }
