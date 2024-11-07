@@ -1,6 +1,6 @@
 ## PROJETO DE ALGORITMOS
 
-# Repositŕio destinado a documnetaçõa do trabalho de Projeto de algoritmo
+# Repositŕio destinado a documentação do trabalho de Projeto de algoritmo
 
 # Contribuidores
 
