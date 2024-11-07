@@ -30,5 +30,18 @@ int findTheCity(int n, int** edges, int edgesSize, int* edgesColSize, int distan
         }
     }
 
+    int z = n - 1, o = n;
+    for (int i = n - 1; i >= 0; i--) {
+        int count = 0;
+        for (int j = 0; j < n; j++) {
+            if (d[i][j] <= distanceThreshold) count++;
+        }
+        if (count < o) {
+            z = i;
+            o = count;
+        }
+    }
+
+    return z;
     
 }
