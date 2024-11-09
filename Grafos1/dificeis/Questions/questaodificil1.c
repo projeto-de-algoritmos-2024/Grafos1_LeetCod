@@ -12,4 +12,24 @@ int maximalPathQuality(int* values, int valuesSize, int** edges, int edgesSize, 
         adjWeights[i] = (int*)malloc(valuesSize * sizeof(int));
     }
 
+        // Construindo o grafo
+    for (int i = 0; i < edgesSize; ++i) {
+        int u = edges[i][0];
+        int v = edges[i][1];
+        int w = edges[i][2];
+        adjList[u][adjListSize[u]] = v;
+        adjWeights[u][adjListSize[u]++] = w;
+        adjList[v][adjListSize[v]] = u;
+        adjWeights[v][adjListSize[v]++] = w;
+    }
+
+    //int maxPathQuality = INT_MIN;
+
+    void dfs(int u, int timeLeft, int currentQuality, int* visited) {
+        if (timeLeft < 0) return;
+
+        
+        if (visited[u] == 0) {
+            currentQuality += values[u];
+    }
 }
