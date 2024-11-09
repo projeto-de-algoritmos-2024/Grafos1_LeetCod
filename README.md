@@ -2,7 +2,14 @@
 
 # Repositório destinado a documentação do trabalho de Projeto de algoritmo
 
+# Questões
+
+| Questão | Nível |
+|1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance|Médio|
+|2275. Largest Combination With Bitwise AND Greater Than Zero|Médio|
+|||
+
 # Contribuidores
 
-| 211039466  | Harryson Campos Martins | <img width="100" src="https://github.com/harry-cmartin.png" style="border-radius: 50px"/>  |
-| 211030602  | Flavio Gustavo Araújo de Melo | <img width="100" src="https://github.com/flavioovatsug.png" style="border-radius: 50px"/>  |
+| 211039466  | Harryson Campos Martins | [Harryson]()  |
+| 211030602  | Flavio Gustavo Araújo de Melo | [Flávio] (https://github.com/flavioovatsug)|
