@@ -7,8 +7,8 @@
 | Questão | Nível |
 |1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance|Médio|
 |2275. Largest Combination With Bitwise AND Greater Than Zero|Médio|
-||Difícil|
-||Difícil|
+|2065. Maximum Path Quality of a Graph|Difícil|
+|1377. Frog Position After T Seconds|Difícil|
 
 # Contribuidores
 
