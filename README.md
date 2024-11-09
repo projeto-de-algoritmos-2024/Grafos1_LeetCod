@@ -4,6 +4,8 @@
 
 # Questões
 
+<center>
+
 </head>
 <body>
 
@@ -37,9 +39,11 @@
 </body>
 </html>
 
+</center>
 
 # Contribuidores
 
+<center>
 
 </head>
 <body>
@@ -68,3 +72,5 @@
 
 </body>
 </html>
+
+</center>
