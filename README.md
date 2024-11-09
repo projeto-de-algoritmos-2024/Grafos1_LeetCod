@@ -4,25 +4,6 @@
 
 # Questões
 
-<title>Tabela de Questões</title>
-<style>
-    table {
-        width: 50%;
-        border-collapse: collapse;
-        margin: 20px auto;
-    }
-    th, td {
-        padding: 10px;
-        text-align: left;
-        border: 1px solid #ddd;
-    }
-    th {
-        background-color: #f2f2f2;
-    }
-    tr:hover {
-        background-color: #f9f9f9;
-    }
-</style>
 </head>
 <body>
 
@@ -59,32 +40,7 @@
 
 # Contribuidores
 
-<title>Tabela de Alunos</title>
-<style>
-    table {
-        width: 70%;
-        border-collapse: collapse;
-        margin: 20px auto;
-    }
-    th, td {
-        padding: 10px;
-        text-align: left;
-        border: 1px solid #ddd;
-    }
-    th {
-        background-color: #f2f2f2;
-    }
-    tr:hover {
-        background-color: #f9f9f9;
-    }
-    a {
-        color: #007bff;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
+
 </head>
 <body>
 
