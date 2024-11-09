@@ -5,12 +5,12 @@ https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbor
 # Nível da questão:  <span style="color: yellow;">Médio</span>
 
 ## Resultados do juiz eletrônico
-![](Assets/Question1_status.png)
+![](/Assets/Question1_status.png)
 
-![](Assets/Question1.png)
+![](/Assets/Question1.png)
 
 #### Caso 1:
-![](Assets/Question1_case1.png)
+![](/Assets/Question1_case1.png)
 
 #### Caso 2:
-![](Assets/Question1_case2.png)
+![](/Assets/Question1_case2.png)
