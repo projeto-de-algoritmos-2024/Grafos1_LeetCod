@@ -11,7 +11,7 @@ typedef struct Node {
 Node* graph[MAX_N];
 int visited[MAX_N];
 
-// Função para adicionar uma aresta ao grafo
+
 void addEdge(int u, int v) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->vertex = v;
