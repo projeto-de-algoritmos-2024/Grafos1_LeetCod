@@ -56,3 +56,19 @@ double dfs(int current, int t, int target) {
     visited[current] = 0;
     return probability;
 }
+
+// Função principal para calcular a posição da rã
+double frogPosition(int n, int** edges, int edgesSize, int* edgesColSize, int t, int target) {
+    for (int i = 1; i <= n; i++) {
+        graph[i] = NULL;
+        visited[i] = 0;
+    }
+
+    for (int i = 0; i < edgesSize; i++) {
+        int u = edges[i][0];
+        int v = edges[i][1];
+        addEdge(u, v);
+    }
+
+    return dfs(1, t, target);
+}
