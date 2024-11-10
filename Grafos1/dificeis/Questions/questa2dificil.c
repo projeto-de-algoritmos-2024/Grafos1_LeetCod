@@ -23,3 +23,36 @@ void addEdge(int u, int v) {
     newNode->next = graph[v];
     graph[v] = newNode;
 }
+
+double dfs(int current, int t, int target) {
+    if (t == 0) {
+        return current == target ? 1.0 : 0.0;
+    }
+
+    visited[current] = 1;
+
+    int unvisitedCount = 0;
+    Node* temp = graph[current];
+    while (temp != NULL) {
+        if (!visited[temp->vertex]) {
+            unvisitedCount++;
+        }
+        temp = temp->next;
+    }
+
+    if (unvisitedCount == 0) {
+        return current == target ? 1.0 : 0.0;
+    }
+
+    double probability = 0.0;
+    temp = graph[current];
+    while (temp != NULL) {
+        if (!visited[temp->vertex]) {
+            probability += (1.0 / unvisitedCount) * dfs(temp->vertex, t - 1, target);
+        }
+        temp = temp->next;
+    }
+
+    visited[current] = 0;
+    return probability;
+}
