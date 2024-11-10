@@ -89,16 +89,16 @@
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://youtu.be/NBTXU1abWEo" target="_blank">1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance</a></td>
+            <td><a href="https://youtu.be/NBTXU1abWEo" target="_blank">Média 1</a></td>
         </tr>
         <tr>
-            <td><a href="" target="_blank">2275. Largest Combination With Bitwise AND Greater Than Zero</a></td>
+            <td><a href="" target="_blank">Média 2</a></td>
         </tr>
         <tr>
-            <td><a href="https://youtu.be/zxcKeTPzbKg" target="_blank">2065. Maximum Path Quality of a Graph</a></td>
+            <td><a href="https://youtu.be/zxcKeTPzbKg" target="_blank">Difícil 1</a></td>
         </tr>
         <tr>
-            <td><a href="" target="_blank">1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance</a></td>
+            <td><a href="" target="_blank">Difícil 2</a></td>
         </tr>
     </tbody>
 </table>
