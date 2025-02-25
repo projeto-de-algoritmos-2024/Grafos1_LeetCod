@@ -92,13 +92,13 @@
             <td><a href="https://youtu.be/NBTXU1abWEo" target="_blank">Média 1</a></td>
         </tr>
         <tr>
-            <td><a href="" target="_blank">Média 2</a></td>
+            <td><a href="https://youtu.be/2yf7QPKfX8Q?si=lFiAF7u1cdRxzwU4" target="_blank">Média 2</a></td>
         </tr>
         <tr>
             <td><a href="https://youtu.be/zxcKeTPzbKg" target="_blank">Difícil 1</a></td>
         </tr>
         <tr>
-            <td><a href="" target="_blank">Difícil 2</a></td>
+            <td><a href="https://youtu.be/y1nOzfnRV1k?si=54ETejDqqD6onv8m" target="_blank">Difícil 2</a></td>
         </tr>
     </tbody>
 </table>
